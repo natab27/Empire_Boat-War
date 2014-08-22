@@ -2,17 +2,19 @@ Empire boat-war
 
 Requerimientos
  
-Enum	Tipo	Descripci髇
+Enum	Tipo	Descripci贸n
 	   
-REQ1	FUN	El sistema puede conectarse entre dos maquinas.	   
-REQ2	FUN	El sistema puede escoger cuantos barcos van a interactuar en una partida.
-REQ4	FUN	El sistema puede escoger en donde y en que posici髇 colocar cada barco.
-REQ5	FUN	El sistema puede elegir que posiciones atacar.
-REQ6	FUN	El sistema puede saber que posiciones (o coordenadas) han sido atacadas.
-REQ7	FUN	El sistema puede saber cuantos barcos han sido atacados y cuantos derrotados.
-REQ8	FUN	El sistema puede saber en que turno del juego esta.	   
-REQ9	FUN	El sistema puede saber que jugador es el ganador.
-REQ10	FUN	El sistema puede saber que jugador es el perdedor. 
+REQ1	FUN	El sistema le permite al usuario jugar desde instancias de la aplicaci贸n lanzadas en dos
+		m谩quinas diferentes.
+REQ2	FUN	El sistema le permite al usuario escoger cuantos barcos van a interactuar en una partida.
+REQ3	FUN	El sistema le permite al usuario escoger en donde y en que posici贸n colocar cada barco.
+REQ4	FUN	El sistema le permite al usuario elegir que posiciones atacar.
+REQ5	FUN	El sistema le permite al usuario saber que posiciones (o coordenadas) han sido atacadas.
+REQ6	FUN	El sistema le permite al usuario saber cuantos barcos han sido atacados y cuantos derrotados.
+REQ7	FUN	El sistema le permite al usuario saber en que turno del juego est谩.	   
+REQ8	FUN	El sistema le permite al usuario saber que jugador es el ganador.
+REQ9	FUN	El sistema le permite al usuario saber que jugador es el perdedor.
+REQ10	FUN	El sistema cambia el estado del juego cada vez que un jugador ejecute una acci贸n.
  	 	
 
-Natalia Barrera Vald閟
+Natalia Barrera Vald茅s
