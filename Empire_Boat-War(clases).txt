@@ -1,21 +1,21 @@
-Clases			Descripci髇
+Clases			Descripci贸n
 Jugador 1 y 2		Esta clase representa a los dos usuarios o jugadores.
-			Sirve para llevar el registro de cada jugador, es decir cu醤tos ataques lleva, cu醤tos barcos le ha matado a su oponente, y cu醤tos barcos le han matado a el.
+			Sirve para llevar el registro de cada jugador, es decir cu谩ntos ataques lleva, cu谩ntos barcos le ha matado a su oponente, y cu谩ntos barcos le han matado a el.
 
-Tableros			Esta clase representa un tablero dividido por cuadros de 10x10.
+Tableros		Esta clase representa un tablero dividido por cuadros de 10x10.
 			Son dos, uno sirve para representar el propio campo de juego, ubicar los barcos en algunas de sus posiciones y para llevar el registro del ataque del jugador contrario. El otro sirve para representar el campo de juego del otro jugador y para poder atacar al otro jugador.
 
-Barcos			Esta clase representa a los barcos que interact鷄n en la partida.
-			Sirve para crear cada barco con una posici髇 espec韋ica, los 5 barcos que son de diferentes tama駉s.
+Barcos			Esta clase representa a los barcos que interact煤an en la partida.
+			Sirve para crear cada barco con una posici贸n espec铆fica, los 5 barcos que son de diferentes tama帽os.
 
-Estado del juego		Esta clase es la que lleva el estado del juego.
-			Sirve para cambiar el estado del juego cada vez que un jugador ejecute una acci髇.
+Estado del juego	Esta clase es la que lleva el estado del juego.
+			Sirve para cambiar el estado del juego cada vez que un jugador ejecute una acci贸n.
 
-Conexi髇 entre dos maquinas	Esta clase es la que va a manejar la conexi髇 entre las dos m醧uinas involucradas en el juego es decir, es la mensajera de datos entre los dos jugadores.
+Conexi贸n entre dos maquinas	Esta clase es la que va a manejar la conexi贸n entre las dos m谩quinas involucradas en el juego es decir, es la mensajera de datos entre los dos jugadores.
 
-Superclases		Descripci髇
-Juego			Esta es la clase que agrupa a los jugadores y a los objetos y adem醩 sabe que es una partida y cuando termina.
+Superclases		Descripci贸n
+Juego			Esta es la clase que agrupa a los jugadores y a los objetos y adem谩s sabe que es una partida y cuando termina.
 
 Jugadores		Esta clase va agrupa a los dos jugadores. Sirve para modelar en general lo que es un jugador y sus funciones.
 
-Objetos			Esta es la clase que agrupa a todos los objetos del juego como los barcos, las bombas y los tableros. Ya que estos tienen en com鷑 dimensiones y posiciones.
+Objetos			Esta es la clase que agrupa a todos los objetos del juego como los barcos, las bombas y los tableros. Ya que estos tienen en com煤n dimensiones y posiciones.
