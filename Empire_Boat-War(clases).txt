@@ -1,0 +1,21 @@
+Clases			Descripción
+Jugador 1 y 2		Esta clase representa a los dos usuarios o jugadores.
+			Sirve para llevar el registro de cada jugador, es decir cuántos ataques lleva, cuántos barcos le ha matado a su oponente, y cuántos barcos le han matado a el.
+
+Tableros			Esta clase representa un tablero dividido por cuadros de 10x10.
+			Son dos, uno sirve para representar el propio campo de juego, ubicar los barcos en algunas de sus posiciones y para llevar el registro del ataque del jugador contrario. El otro sirve para representar el campo de juego del otro jugador y para poder atacar al otro jugador.
+
+Barcos			Esta clase representa a los barcos que interactúan en la partida.
+			Sirve para crear cada barco con una posición específica, los 5 barcos que son de diferentes tamaños.
+
+Estado del juego		Esta clase es la que lleva el estado del juego.
+			Sirve para cambiar el estado del juego cada vez que un jugador ejecute una acción.
+
+Conexión entre dos maquinas	Esta clase es la que va a manejar la conexión entre las dos máquinas involucradas en el juego es decir, es la mensajera de datos entre los dos jugadores.
+
+Superclases		Descripción
+Juego			Esta es la clase que agrupa a los jugadores y a los objetos y además sabe que es una partida y cuando termina.
+
+Jugadores		Esta clase va agrupa a los dos jugadores. Sirve para modelar en general lo que es un jugador y sus funciones.
+
+Objetos			Esta es la clase que agrupa a todos los objetos del juego como los barcos, las bombas y los tableros. Ya que estos tienen en común dimensiones y posiciones.
