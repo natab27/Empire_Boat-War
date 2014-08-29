@@ -7,7 +7,7 @@ Enum	Tipo	Descripción
 REQ1	FUN	El sistema le permite al usuario jugar desde instancias de la aplicación lanzadas en dos
 		máquinas diferentes.
 REQ2	FUN	El sistema le permite al usuario escoger cuantos barcos van a interactuar en una partida.
-REQ3	FUN	El sistema le permite al usuario escoger en donde y en que posición colocar cada barco.
+REQ3	FUN	El sistema le permite al usuario escoger en donde y en que posición del tablero colocar cada barco.
 REQ4	FUN	El sistema le permite al usuario elegir que posiciones atacar.
 REQ5	FUN	El sistema le permite al usuario saber que posiciones (o coordenadas) han sido atacadas.
 REQ6	FUN	El sistema le permite al usuario saber cuantos barcos han sido atacados y cuantos derrotados.
